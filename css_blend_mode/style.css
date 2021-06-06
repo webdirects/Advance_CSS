@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("http://www.mcgilltribune.com/wp-content/uploads/2020/02/hacker.png");
+    background-size: 100% 100%;
+    display: grid;
+    place-items: center;
+}
+h1{
+    font-size: 8rem;
+    background: #fff;
+    padding: 0 10px;
+    mix-blend-mode: screen;
+}
