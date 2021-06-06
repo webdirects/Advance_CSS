@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: 'Rowdies', cursive;
+}
+
+.main_header{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    color: transparent;
+    font-size: 8rem;
+    background-image: url("https://lh3.googleusercontent.com/proxy/YLXnCzcf2iaq3oQIeb9hbOjYTkS8Vn7rd8SgBgxXbleDcWY0LEpXK5fGNSKNZEuk6Mn9vsUyQgpqkzlnA6iC9noLooOqm75jyMcRG6O2_LPFOSlwzZijycN68bEQxewcwugxuK68plhSn0DNnNLZKpTur3Ef0oVH_A");
+    background-clip: text;  
+    -webkit-background-clip: text;  
+    -moz-background-clip: text;  
+}
