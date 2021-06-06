@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_header{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #38ada9;
+    color: #fff;
+}
+
+.main_header * {
+    font-size: 2rem;
+    padding-top: 5px;
+}
+
+/* li:first-child{
+    color: rebeccapurple;
+}
+li:last-child{
+    color: red;
+}
+li:nth-child(2n){
+    color: black;
+}
+li:nth-child(2n-1)
+{
+    color: sienna;
+} */
+
+li:not(:nth-child(4)){
+    color: yellow;
+}
